@@ -30,7 +30,7 @@ export const startup = defineType({
       type: "text",
     },
     {
-      name: "catergory",
+      name: "category",
       type: "string",
       validation: (Rule) =>
         Rule.min(1).max(10).required().error("Please enter a category."),

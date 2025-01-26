@@ -15,7 +15,7 @@ export default async function Home({
 
   const session = await auth();
 
-  console.log("Here!!!");
+  console.log(session?.id);
 
   // const posts = await client.fetch(STARTUPS_QUARIES);
   const { data: posts } = await sanityFetch({

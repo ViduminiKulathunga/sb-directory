@@ -756,7 +756,7 @@
         },
         "optional": true
       },
-      "catergory": {
+      "category": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
